@@ -1,0 +1,78 @@
+{
+    "action_id": "action_20251010_173307",
+    "db_record": {
+        "SR_NO": null,
+        "ACTION": "Block IP",
+        "ACTIONTYPE": "Automation",
+        "DATE": "10-10-2025 05:10:43",
+        "INDEX_ID": "b8edc210264763d392420bd64bd57d1ef6d2dd7426cfea0c8c45c28521c34575",
+        "IPADDRESS": "192.168.0.56",
+        "PASSWORD": null,
+        "REQUESTID": null,
+        "REQUESTJSON": "[{\"severity\": \"high\", \"ipaddress\": \"192.168.0.56\", \"actionType\": \"Manual\", \"password\": \"\", \"action\": \"Block IP\", \"id\": \"b8edc210264763d392420bd64bd57d1ef6d2dd7426cfea0c8c45c28521c34575\", \"suspicious\": \"192.168.0.56\", \"typerules\": \"Suspicious Network Traffic with Failed Logins\", \"timestamp\": \"10-10-2025 05:10:43\"}]",
+        "REQUEST_COUNT": 1,
+        "REQUEST_TYPE": null,
+        "STATUS": "Inprocess",
+        "SUSPICIOUS": "192.168.0.56",
+        "TYPE_RULES": "Suspicious Network Traffic with Failed Logins",
+        "BRANCH_NAME": "velox",
+        "EVENTID": null,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "SEVERITY": "high",
+        "PLAYBOOKNAME": null,
+        "ACTION_TAKEN_BY": null,
+        "VT_Response": null
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "Suspicious Network Traffic with Failed Logins",
+        "@timestamp": "2025-10-10T05:10:43.547Z",
+        "rule": {
+            "name": "Usermode"
+        },
+        "ip_list": "\"fe80::b654:2994:3e0e:55be\",\"192.168.0.56\"",
+        "destination": {
+            "port": 8090,
+            "ip": "192.168.0.56"
+        },
+        "network": {
+            "protocol": "-",
+            "direction": "ingress"
+        },
+        "source": {
+            "port": 57317,
+            "ip": "192.168.0.56"
+        },
+        "logger_ip": "192.168.0.56",
+        "host": {
+            "architecture": "x86_64",
+            "ip": "192.168.0.56",
+            "hostname": "Kartik",
+            "mac": [
+                "10:ff:e0:5f:b0:e3"
+            ],
+            "name": "Kartik"
+        },
+        "user": {
+            "id": "S-1-5-18",
+            "domain": "KARTIK",
+            "name": "VELOX"
+        },
+        "process": {
+            "name": "WsToastNotification.exe",
+            "pid": 2976,
+            "executable": "C:\\Users\\VELOX\\AppData\\Local\\Wondershare\\Wondershare NativePush\\WsToastNotification.exe"
+        },
+        "event.action": "File Delete logged (rule: FileDeleteDetected)",
+        "event.category": [
+            "network"
+        ],
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "network event with process WsToastNotification.exe, source 192.168.0.56:57317, destination 192.168.0.56:8090, by VELOX on Kartik created high alert Suspicious Network Traffic with Failed Logins.",
+        "kibana.alert.severity": "high",
+        "kibana.alert.rule.description": "Suspicious Network Traffic with Failed Logins",
+        "kibana.alert.rule.rule_id": "b7edb9df-f286-4cc1-8e2f-9b2a5d08976c",
+        "_id": "b8edc210264763d392420bd64bd57d1ef6d2dd7426cfea0c8c45c28521c34575",
+        "_relevance_score": 4.0
+    }
+}

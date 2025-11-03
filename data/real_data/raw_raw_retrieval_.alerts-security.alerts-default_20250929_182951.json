@@ -1,0 +1,1875 @@
+[
+  {
+    "kibana.alert.start": "2025-09-29T05:21:46.856Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:46.856Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "94c1aacd0d3e903f8b2bc324c10f58983d629f4ea908f1c53fe2449e784dcc31"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:44.841Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:44.841Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "9b56283066818f225caefe17aee340b46e968c49259c7ce5d43aa8ceac418069"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.353Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.353Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e62204417afb9726b28743264aece5ea55818a8ca840fa7247918c6014f6c004"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.353Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.353Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "90f5764802f1e16e01e1889a9ce4620cd4b8323f1f3d080a041956093d634922"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.352Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.352Z",
+    "user": {
+      "name": "LOCAL SERVICE"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "55375bd67bcc66d6223b8347b9b88b287c9504328b7bd10c3b7528fee517790e"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.352Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.352Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "a5d4d09f1dfdb7f9317bfc8f933e6bd06c7be24527a5dff545eb920f7364bdcd"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.351Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.351Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e407bd918769d41abbb3c165bd4c8022decda92b85f7be09c0587bdce9fb3c1b"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.351Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.351Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "f51dab0478401d9d3b90df45e3d93950b83af522f7735920beb5303e556ee1ce"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.350Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.350Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "eb54a4f7a1c11435606a101c8587dbebd2c0e9bb2c7c53384e60fcaa7e5f98fb"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.350Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.350Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8b9d989c6bc18c600b5454757346f3b9d99d30e046060e09ee8f5d31fba6de1e"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.350Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.350Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "9bfa3ce5be05132fbef0489ea109add83867d42128a844ca3767c6587cf9f19a"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.349Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.349Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4e46d5f777658aac0273384cf4b5b16e366a75691c4c2f3ddd29f0e12e316fe8"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.349Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.349Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8851871d17a4fd1d16ca53f7cb2cdfbc86667c48cd00ce640478b62381efd379"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T05:21:41.348Z",
+    "kibana.alert.last_detected": "2025-09-29T05:21:41.348Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "503a928dad330de98e548464fb526509c2405fbf3d2e43f88e4091ba47447a49"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:19.794Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:19.794Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "bfb88654a15679e273ff7127c5ba56a9fa5a2977f315fe822b7b39139ad16b01"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:19.794Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:19.794Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4aaa8e2e7e08b7e4c63854c2bb78440f67b0d8ece646c3159098bfde17560b23"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.548Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.548Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8bc6cf90a3f4df1c5826642b2bb7267ab22e5182005b7f291ce10c47625240d4"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.547Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.547Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "1c8900afe8c1fe37256e129307cef949196a643c0231b32c9a1029ceafca5f82"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.547Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.547Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "78ed7c0ea3e0c2c573e6cec890e827f927b1320d2c1cfa0d30a43903bef2877d"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.546Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.546Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "49b1f86fa1dbb4134983bacb3f0e56d81bd3196a3a377e168bc535f1be2f8508"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.546Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.546Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "53b8dec2c40b4295d56193b0d7a2b43731ffafa2fadbfbdd83c1244c07a33911"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.545Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.545Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "f88d6de33d1883e278c10aae02f9b352ef6d6a09442cddce7bbb2d19606e45f6"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.545Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.545Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "630440ca996a19f5cc28c91c243f864bcf2a2cccc21696988555ca9520378258"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.545Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.545Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "58293084b89c02b77479c4e597d351a3076bcb426ae518291f3343767fd03856"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.544Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.544Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4983212ee2a28fff709e27e8ef023d120e8c962f6126e3b6d39ae2b1f900b77a"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.544Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.544Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "86dde79a840ce4d0e997e349ea5541b3e764f365befda5943822d16628fc2ce2"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.543Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.543Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5b20e62ede36cb0ba5d268bf68f8817cfa627bb75a3ef64edbc38c5a2d195ba6"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.543Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.543Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7febd722bdf52787253b514ffa4d6b810a63a97122d9c939518365c76b171519"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.542Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.542Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7f6acdf019eecc6aeb869742d1822edbdf9e1d4606eb7a4948fb6e5e020799a2"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.542Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.542Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5db2933dc4d7237b8bce35e9d81f5ae8b2a0d74986db5aeb07f925bbf1b83f6d"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.541Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.541Z",
+    "user": {
+      "name": "LOCAL SERVICE"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "af6933a6628e16e9481ea7a8e728ad0f2b25283446ad7936b18a1d4deb311fbc"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.541Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.541Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "c787fdf7b1d5468bbdc4ed6556c69898666be62f9007cbe7dee884f7763aa244"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.541Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.541Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "ae8ba5eaf5cd2a27ad942a93628e423faab2f8e577638c43a5d924b5bc4fa7df"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.540Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.540Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5d10c96f1021a6d82b0c71053d74f237f87128d05ff770036ebe3ec4200017e9"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.540Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.540Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e20b8c1525ae43c9b9d93aacfe1384c4b871e62ec7fda16f741ef3d8ea0ee816"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:50:16.539Z",
+    "kibana.alert.last_detected": "2025-09-29T04:50:16.539Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5e272ed4536a8e03a18bd29a90798ebf593cdcbf815ed5b2f416e0a09504c66d"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:42:33.511Z",
+    "kibana.alert.last_detected": "2025-09-29T04:42:33.511Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "21b795f266f357b063369518fd77bb58bea55148"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:38:03.700Z",
+    "kibana.alert.last_detected": "2025-09-29T04:38:03.700Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4734d0e69dbb991e7273271d760127ba58476cb8e7889731886e98e70d9c1fbb"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:38:03.699Z",
+    "kibana.alert.last_detected": "2025-09-29T04:38:03.699Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "53efc0ab470e38b4aafcf6a27f2baf8bdcc3436bab20794b23d8341fc2d9e273"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:38:03.699Z",
+    "kibana.alert.last_detected": "2025-09-29T04:38:03.699Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "025e9d8a3aabc4e16af87aea086185f069161db96eb079057f0a9dc5d3161c89"
+  },
+  {
+    "kibana.alert.start": "2025-09-29T04:33:34.375Z",
+    "kibana.alert.last_detected": "2025-09-29T04:33:34.375Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "78aed0b1ecfb3718aff1459142d31631e25398a9"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T21:26:54.429Z",
+    "kibana.alert.last_detected": "2025-09-28T21:26:54.429Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "3940c6fa8772414c8906c790a91ab4511155ed7253abeb91a833355e71274378"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T19:16:11.464Z",
+    "kibana.alert.last_detected": "2025-09-28T19:16:11.464Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "398253ffbfe6b37aba7b3889eb1d6c815e2f2e3fb571e62b3230577e4a00d050"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T12:12:31.509Z",
+    "kibana.alert.last_detected": "2025-09-28T12:12:31.509Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "303a084da4db4721e9ff59fe1b53e8e3ea768d63e009a4f122e3654daac5e9be"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T10:12:28.478Z",
+    "kibana.alert.last_detected": "2025-09-28T10:12:28.478Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "dc4d23192175ffe09d6fbde3d376309009fcfeb069c33291243cbb02f316232a"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T01:54:13.749Z",
+    "kibana.alert.last_detected": "2025-09-28T01:54:13.749Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "60ea40d0c76ad3fd60a8450a6a6c47cee557c3f354862846b5e017733d480178"
+  },
+  {
+    "kibana.alert.start": "2025-09-28T00:18:41.908Z",
+    "kibana.alert.last_detected": "2025-09-28T00:18:41.908Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "2394844afd220b5d614ae48b541d4444aa32a9df26e8c30ad51e1f30a84ddbdb"
+  },
+  {
+    "kibana.alert.start": "2025-09-27T12:12:27.535Z",
+    "kibana.alert.last_detected": "2025-09-27T12:12:27.535Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "6ccab1a4a6ea3f6ec4aaea90c911ff81ed55769883a7f6f08a9127e7f23d7123"
+  },
+  {
+    "kibana.alert.start": "2025-09-27T00:58:08.623Z",
+    "kibana.alert.last_detected": "2025-09-27T00:58:08.623Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "b2690cc109ef22e5f4b78b14cc58ef5ae0b58d69f4b0c88917e3bb388bc3cfb9"
+  },
+  {
+    "kibana.alert.start": "2025-09-26T11:46:15.561Z",
+    "kibana.alert.last_detected": "2025-09-26T11:46:15.561Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "aa60b62b2ab94574116e7391bb3bd87aaa3d72440be50843268a4d987415b240"
+  },
+  {
+    "kibana.alert.start": "2025-09-26T06:48:56.145Z",
+    "kibana.alert.last_detected": "2025-09-26T06:48:56.145Z",
+    "host": {
+      "ip": "192.168.0.42"
+    },
+    "user": {
+      "name": "velox"
+    },
+    "event.action": "opened-file",
+    "event.outcome": "failure",
+    "kibana.alert.workflow_status": "open",
+    "_id": "59d080e26fde7d971e3d63eabf4cc56e0d371678"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T18:18:40.681Z",
+    "kibana.alert.last_detected": "2025-09-25T18:18:40.681Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5cd8fdd5b8415f2dba48f073c59fd36b8bebb22f5aafdc9e6a2a328b5c11d6e9"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T16:21:43.987Z",
+    "kibana.alert.last_detected": "2025-09-25T16:21:43.987Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "0500810fb323e4a5f8b334ea5d497ef0e1a93124897cb9c26a15be2f0e740589"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T12:27:14.086Z",
+    "kibana.alert.last_detected": "2025-09-25T12:27:14.086Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.39"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "0b074236e593e9b2e29d420a2a5c99b27ee5f03746e42ef08ddccf4be531e09b"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T12:27:14.086Z",
+    "kibana.alert.last_detected": "2025-09-25T12:27:14.086Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.39"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "c2c5c05411982f530fa89f3e2e1a1e92437784979e7114955d3af4760fd8e3aa"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T12:06:16.257Z",
+    "kibana.alert.last_detected": "2025-09-25T12:06:16.257Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e6a745fff910a4725abc100a829fc54d89531ff6d018dfd854e8397ebe62f114"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T10:11:16.718Z",
+    "kibana.alert.last_detected": "2025-09-25T10:11:16.718Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "d98e633f0354de6ff73342fad69b2705045d909052beb5efd6fa53e80721c313"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T09:27:06.706Z",
+    "kibana.alert.last_detected": "2025-09-25T09:27:06.706Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8ba3ed9f1a8d80841020836e202cd161cecaaa291994a206d8902ce2b123f24e"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T09:27:06.705Z",
+    "kibana.alert.last_detected": "2025-09-25T09:27:06.705Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "320d25312742c781fead547b53d03c7e8d90062f00da9caa62ae2e3ae33782b2"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T08:13:54.230Z",
+    "kibana.alert.last_detected": "2025-09-25T08:13:54.230Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.39"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "bd2532e0ac68f3a213c19d618b8b265c5a5b95485da7554dfa4a7f57953f49c5"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:20:34.869Z",
+    "kibana.alert.last_detected": "2025-09-25T07:20:34.869Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": "192.168.0.39"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "45d0c8faa81980f3ebb0274dce8b9bad29473b137f6daff17038bec1d8eab531"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.809Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.809Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "07c2445d50a172f4ee9103033832d39995f1fc8389227198f040717107241cb1"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.808Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.808Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "destination": {
+      "ip": "192.168.0.182"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "rule": {
+      "name": "Usermode"
+    },
+    "event.action": "Network connection detected (rule: NetworkConnect)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "b7289140f8479bed8574588af48eea707705609c6801a81558f3a297c4919b0f"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.808Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.808Z",
+    "user": {
+      "name": "velox"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "User Login Failed",
+    "event.outcome": "failure",
+    "kibana.alert.workflow_status": "open",
+    "_id": "d624681ec63f0b86f94526423dca33df2775ea05d13c849f4c9a6f67181edba8"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.808Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.808Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "bb9b2f7279678eb702e55d2eb4243ea44b8c0a4a9e26eeee8dd6c166635fc69b"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.807Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.807Z",
+    "destination": {
+      "ip": "192.168.0.182"
+    },
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.182"
+    },
+    "rule": {
+      "name": "Usermode"
+    },
+    "event.action": "Network connection detected (rule: NetworkConnect)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "a3d75b073a8c44d19eca9aa6a8f334cbce9af6a0e422ae1d767d7c68a6bd6929"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:16:19.807Z",
+    "kibana.alert.last_detected": "2025-09-25T07:16:19.807Z",
+    "user": {
+      "name": "velox"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "User Login Failed",
+    "event.outcome": "failure",
+    "kibana.alert.workflow_status": "open",
+    "_id": "0a296a1521726a5b957a8f7973a0c9f7da8d3fc4c75bff47ec6e785b72b7029a"
+  },
+  {
+    "kibana.alert.start": "2025-09-25T07:12:54.753Z",
+    "kibana.alert.last_detected": "2025-09-25T07:12:54.753Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": "192.168.0.235"
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "ed41ba98079bfaaf94874e6808e9f5fe7a8ff45e5449e36d0d4cffb53a967369"
+  },
+  {
+    "host": {
+      "ip": "192.168.0.1"
+    },
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "kibana.alert.start": "2025-09-24T19:09:18.130Z",
+    "kibana.alert.last_detected": "2025-09-24T19:09:18.130Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "event.action": "deny",
+    "_id": "428e940801da7b853ada077f4869f8bd86c64607821bf086792ea8a543ecfca7"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T11:11:59.653Z",
+    "kibana.alert.last_detected": "2025-09-24T11:11:59.653Z",
+    "destination": {
+      "ip": "182.48.194.218"
+    },
+    "host": {
+      "ip": "192.168.0.1"
+    },
+    "event.action": "deny",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "1c1a018a04a46d00a955ee71f1b808a43f43c26217f82701801caac5376be52f"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T06:01:36.681Z",
+    "kibana.alert.last_detected": "2025-09-24T06:01:36.681Z",
+    "kibana.alert.workflow_status": "open",
+    "_id": "ef5542b5a75a6af1e913b5b20abf9d15d6869a30dbf205e1382fe7aa51a792a0"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T06:01:31.137Z",
+    "kibana.alert.last_detected": "2025-09-24T06:01:31.137Z",
+    "user.name": "VELOX",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4bafb01a25f42a46b928b235992a0006b758a56483cc0be0f8463e1ada9bd0f5"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:28:04.681Z",
+    "kibana.alert.last_detected": "2025-09-24T05:28:04.681Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "458c86c96ff51507ded2b8861f15fb04044660411745dc0f012c03cb07477b1f"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:28:04.680Z",
+    "kibana.alert.last_detected": "2025-09-24T05:28:04.680Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "46c5ca920bf57670704466803b01ac957adf4bc06be062a2470a4d204d788f77"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:29.257Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:29.257Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "closed",
+    "_id": "3881a4fb94bf40305f99c1c961b5a46cd7093dec0ab4e091a7f297ce4bfe6b1b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:29.256Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:29.256Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Member Removed from Group",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8a12eccdc7ece91b5c1e01d534ca346526a35c646f9601a49d6f96755a8e44d3"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:29.256Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:29.256Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Member Added to Group",
+    "kibana.alert.workflow_status": "open",
+    "_id": "1560a6bf5d20cf7bbe941c06aa8f7d816edeae74f47d3df81c872d4bec55f447"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:10.807Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:10.807Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "2c490f2b6c5efd55881a577c2e478dfb2360759b032cf979e6c63f5c59450f61"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:10.806Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:10.806Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e73a8b2c65a4b344555417e96c8134110b3a2d1fc9a8e9dd20837b226faec77a"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:10.806Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:10.806Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "06784e42428e452a0bab19f91a531b69a7b97cdd9dff940a7917454391b0b6c3"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:01.538Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:01.538Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "41f959b9296942780fa197a69facba34316012e5ee131547ce1ac3abf264daa7"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:27:01.537Z",
+    "kibana.alert.last_detected": "2025-09-24T05:27:01.537Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "44cec4906b6feb7db0199d5acbc227c53c7b6229a7d3326f27b08f51c824c87e"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.630Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.630Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Created",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "fb2aa4bd9223eeb586138a323f6337ed3f30feff62926571472a3568edf6d0b8"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.630Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.630Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "89142e079fbb31b6d4934e3de2ccae4216c64228bbbd76469ce3f4f1e36d1bb1"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.630Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.630Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Created",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e65c49a1d253ea30f7cad23d7a0014a0ee3d2d829221eabc3ed54e6a38affead"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.629Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.629Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "f56b6c3445eabdebfec816bf4e76e600e3d9497de08418f63fd887ccb0fcbfcc"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.629Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.629Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e3f036b0b9db941d8e55ef76f907871f7794f5d5169c2277ae64fd85de86530b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.628Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.628Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "c9d8733c37e9b497b5351170718e7567967c29170964e2b7014b025d5c50330f"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.628Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.628Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Created",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "dc7bc3244bcc85d2086b24101750ed010db746338800bc285b3905156986a7b2"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:40.627Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:40.627Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "636dbb34601b5e1ba87fdf41c85c2c227d6227e04faf081947cc8cdb204a3aba"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:37.858Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:37.858Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "9cd530814a0b0f1869209485f71c0fd13314143eec4182825c44401df43ee2aa"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:32.350Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:32.350Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "4fa32443a5cca9d9a63102eed2b0b7b27b49a2af4d548180e68b42615908909a"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:32.350Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:32.350Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "bd33c471ae6f8d1cded7f46505254c7f22813a8008af1543fbf9f6b15512c543"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:28.604Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:28.604Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "e830316e399bd03963a56c82cbcc85ed2b2cab1e0800102d5b0c6c850fc93819"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:28.323Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:28.323Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "2300f0f77cf50c1dd33b51dc4ec53e8d37e1288c"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:20.414Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:20.414Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "a436e7e733738cfe83636b31b117eeda21bba60bcd15cc7c80a27f34dd40808f"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:20.414Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:20.414Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5d9169f81a5ef28328c4540a8ca7a6805b09f28f6e60c2382e5863619067a01b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:20.413Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:20.413Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "f5807077ef8c89c0cbcc98578d64c569a196de8eb2353317bb1ffdb5c1928206"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:20.413Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:20.413Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "faa26b52fd85e96c481871579d0e99f7c6ff0b74f28d430c55ec6066713b0259"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:10.997Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:10.997Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "kibana.alert.workflow_status": "open",
+    "_id": "88691e914401e285c4b5de139173579a860958578b1b7860b762a9220c0bd43b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:10.997Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:10.997Z",
+    "destination": {
+      "ip": "192.168.0.39"
+    },
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Network connection detected (rule: NetworkConnect)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8955347696dc07d77b60a0e9f3835f95b931cc96e31f5808d71cc457ec99e81b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:10.996Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:10.996Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "3f13afc9526deb65efcff5c2fc62cd3a5a72dbb87ee6f08a78e31e58f9b9f412"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:07.499Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:07.499Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "kibana.alert.workflow_status": "open",
+    "_id": "885153917b6e85837be64051ca2ba61a5098da64003e3cad34b3c7d3aa15a30c"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:07.498Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:07.498Z",
+    "destination": {
+      "ip": "192.168.0.39"
+    },
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Network connection detected (rule: NetworkConnect)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7ccb96c76e9eb22da38ac0a65ed5329869a7b491035579ba8b55670cf5d257bf"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:26:07.498Z",
+    "kibana.alert.last_detected": "2025-09-24T05:26:07.498Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "10e42c6745fcaf928d148c9e7134d3d2ea765f4c8cfe9ea5444adb51c601fb5e"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:25:28.763Z",
+    "kibana.alert.last_detected": "2025-09-24T05:25:28.763Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "589ea21fd4bb2498eaf0525b655bc2c8d2f1f7cac22abea56cb84f9781a46237"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:24:19.443Z",
+    "kibana.alert.last_detected": "2025-09-24T05:24:19.443Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "d8e8a1cd2522781953ec93e3ec1cb8bd4c1be396a83e4f5f00e2be82d0fc1a0e"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:24:19.442Z",
+    "kibana.alert.last_detected": "2025-09-24T05:24:19.443Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "fe4064ec12b1771ee592a03fb6284b43e19ac66c23e38702b4a348f1342fbab6"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:24:13.204Z",
+    "kibana.alert.last_detected": "2025-09-24T05:24:13.204Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Created",
+    "event.outcome": "success",
+    "kibana.alert.workflow_status": "open",
+    "_id": "85c556bd58dd91f183729ba81530541536605477"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:23:28.426Z",
+    "kibana.alert.last_detected": "2025-09-24T05:23:28.426Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "1f95cc117ef90ddf8d997cede1756461285b5a3197c95faa276b73a918c21a27"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:23:28.425Z",
+    "kibana.alert.last_detected": "2025-09-24T05:23:28.425Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "c5456767128ad6a10682c4f244fcb8ae7143e87cf00ccca35ffc959e1a3f509a"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:23:25.298Z",
+    "kibana.alert.last_detected": "2025-09-24T05:23:25.298Z",
+    "user": {
+      "name": "SYSTEM"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8b8dbc9db5cb3633d89622c892126963c593a60dac63e44230e75c9c38b2366e"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:22.643Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:22.643Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "2da6cb11979df8f87cb162a7a6de54e4dd23fd91"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:22.642Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:22.642Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "dcda49796260eb19d79df487c2f6fd7250897597"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:19.313Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:19.313Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8a2552301ada023fbffa1668a05752b8b0ca81c6"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:19.312Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:19.312Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "6714d23fd210e627e5e58880d4421c1ecb1e40d5"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:19.312Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:19.312Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8831f2f942ac592aea6862c7684feb1ee1f18fcf"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:21:19.311Z",
+    "kibana.alert.last_detected": "2025-09-24T05:21:19.311Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5c886a6416b1970486a023eed8ba0d642d6b3400"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:20:22.401Z",
+    "kibana.alert.last_detected": "2025-09-24T05:20:22.401Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "70605c8447582e918063291b8a3e4a07625c553bed4d8e071bafc10e23e0ab4b"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:20:22.401Z",
+    "kibana.alert.last_detected": "2025-09-24T05:20:22.401Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.outcome": "success",
+    "event.action": "Process Created",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7b731f10d9ff08ad5d922bb88169ff598fb9df25c5542327a84616197c58a2d9"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:18:09.115Z",
+    "kibana.alert.last_detected": "2025-09-24T05:18:09.115Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "0217be9478651fc25caecfedba5cc2b36b8feda7a75fe0e4aa72706d8ea58c53"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:18:09.115Z",
+    "kibana.alert.last_detected": "2025-09-24T05:18:09.115Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "b05f16c9ac9147d239284ee9c968cb3568d360997cc61834771e1ca4214b4e12"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:18:06.377Z",
+    "kibana.alert.last_detected": "2025-09-24T05:18:06.377Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "5ffc03d70162fd1fdb743bf7cfb825eaa444d3145a3ebe09ae94babea1b01e45"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:17:39.007Z",
+    "kibana.alert.last_detected": "2025-09-24T05:17:39.007Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "c1f651745e289e58d9811fc4eade1e62bf20ab49f4d07d1740827079a4b38f15"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:17:07.155Z",
+    "kibana.alert.last_detected": "2025-09-24T05:17:07.155Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "69d3a7e23bfdd9797dab2e5d05ce096cd9afad161fcfad74eb95235b82a360d7"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.324Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.324Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "aac2d7fdff01d4cfc6d5a8712e11c882ac81aa6bef6c63350537242bf643c308"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.324Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.324Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "8c15b0bf7f4c8dc35dcb12ef44219c24fe1e206c341df3a76b28859c91a7ccb6"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.323Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.323Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "b253eb44cc719ed1b597bd4b87c1526465e8b3a6cdc62d8e59c839e9084cbe22"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.323Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.323Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7b0a357afb25d271c5d23422700a458499ca3f8bc71780ce38ce0f0434313dca"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.322Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.322Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "469df6c6328fc4caea499ab395aca69e5eae2d5c66293bf8312e72f1f984f0b3"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:18.322Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:18.322Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "d7a33b0778c463531ddf6653c48d87dbfac40d5f56628c076adcf1cbe00b7ce0"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:13.681Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:13.681Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "d73b8cfd6a4c5155ace08ccfa061f4b4c5962fd7"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:16:08.773Z",
+    "kibana.alert.last_detected": "2025-09-24T05:16:08.773Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "7cbca532ce5e72125cec7f3990303821698683ff"
+  },
+  {
+    "kibana.alert.start": "2025-09-24T05:15:53.288Z",
+    "kibana.alert.last_detected": "2025-09-24T05:15:53.288Z",
+    "user": {
+      "name": "VELOX"
+    },
+    "host": {
+      "ip": [
+        "fe80::c069:2d3a:ef07:2147",
+        "192.168.0.39"
+      ]
+    },
+    "event.action": "Process Create (rule: ProcessCreate)",
+    "kibana.alert.workflow_status": "open",
+    "_id": "1708f2320d6d0b4a7a19215c6c91002dddcf98057f7292c2363ccf25c3ca8d40"
+  }
+]

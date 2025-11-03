@@ -1,0 +1,46 @@
+{
+    "action_id": "action_20250929_161036",
+    "db_record": {
+        "REQUESTID": null,
+        "REQUESTJSON": "{\"id\": \"result_4\", \"title\": \"Rule: SMTP on Port 26/TCP\", \"type\": \"alert\", \"timestamp\": \"2025-09-28T01:54:13.646Z\", \"summary\": \"**Outcome**: Success \\u2705\", \"details\": {\"kibana.alert.start\": \"2025-09-28T01:54:13.749Z\", \"kibana.alert.last_detected\": \"2025-09-28T01:54:13.749Z\", \"kibana.alert.rule.name\": \"SMTP on Port 26/TCP\", \"@timestamp\": \"2025-09-28T01:54:13.646Z\", \"destination\": {\"ip\": \"182.48.194.218\"}, \"source\": {\"ip\": \"91.231.89.81\"}, \"event.action\": \"deny\", \"event.category\": [\"network\"], \"event.outcome\": \"success\", \"kibana.alert.workflow_status\": \"open\", \"kibana.alert.reason\": \"network event with source 91.231.89.81:1882, destination 182.48.194.218:26, created low alert SMTP on Port 26/TCP.\", \"kibana.alert.rule.description\": \"This rule detects events that may indicate use of SMTP on TCP port 26. This port is commonly used by several popular mail transfer agents to deconflict with the default SMTP port 25. This port has also been used by a malware family called BadPatch for command and control of Windows systems.\", \"_id\": \"60ea40d0c76ad3fd60a8450a6a6c47cee557c3f354862846b5e017733d480178\", \"_relevance_score\": 6.0}, \"relevance_score\": 6.0, \"actions\": [\"view_details\", \"investigate\", \"add_to_dashboard\"], \"key_fields\": {\"kibana.alert.start\": \"2025-09-28T01:54:13.749Z\", \"kibana.alert.last_detected\": \"2025-09-28T01:54:13.749Z\", \"kibana.alert.rule.name\": \"SMTP on Port 26/TCP\", \"@timestamp\": \"2025-09-28T01:54:13.646Z\", \"destination\": {\"ip\": \"182.48.194.218\"}, \"source\": {\"ip\": \"91.231.89.81\"}, \"event.action\": \"deny\", \"event.category\": [\"network\"], \"event.outcome\": \"success\", \"kibana.alert.workflow_status\": \"open\", \"kibana.alert.reason\": \"network event with source 91.231.89.81:1882, destination 182.48.194.218:26, created low alert SMTP on Port 26/TCP.\", \"kibana.alert.rule.description\": \"This rule detects events that may indicate use of SMTP on TCP port 26. This port is commonly used by several popular mail transfer agents to deconflict with the default SMTP port 25. This port has also been used by a malware family called BadPatch for command and control of Windows systems.\"}}",
+        "STATUS": null,
+        "ACTION": "Investigate Alert",
+        "ACTIONTYPE": "automate",
+        "TYPE_RULES": "SMTP on Port 26/TCP",
+        "BRANCH_NAME": "velox",
+        "SEVERITY": "unknown",
+        "REQUEST_COUNT": 0,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "EVENTID": null,
+        "VT_Response": null,
+        "ACTION_TAKEN_BY": null,
+        "PASSWORD": null,
+        "SUSPICIOUS": null,
+        "IPADDRESS": "91.231.89.81",
+        "INDEX_ID": "60ea40d0c76ad3fd60a8450a6a6c47cee557c3f354862846b5e017733d480178",
+        "DATE": "29-09-2025 16:10:36"
+    },
+    "original_alert_details": {
+        "kibana.alert.start": "2025-09-28T01:54:13.749Z",
+        "kibana.alert.last_detected": "2025-09-28T01:54:13.749Z",
+        "kibana.alert.rule.name": "SMTP on Port 26/TCP",
+        "@timestamp": "2025-09-28T01:54:13.646Z",
+        "destination": {
+            "ip": "182.48.194.218"
+        },
+        "source": {
+            "ip": "91.231.89.81"
+        },
+        "event.action": "deny",
+        "event.category": [
+            "network"
+        ],
+        "event.outcome": "success",
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "network event with source 91.231.89.81:1882, destination 182.48.194.218:26, created low alert SMTP on Port 26/TCP.",
+        "kibana.alert.rule.description": "This rule detects events that may indicate use of SMTP on TCP port 26. This port is commonly used by several popular mail transfer agents to deconflict with the default SMTP port 25. This port has also been used by a malware family called BadPatch for command and control of Windows systems.",
+        "_id": "60ea40d0c76ad3fd60a8450a6a6c47cee557c3f354862846b5e017733d480178",
+        "_relevance_score": 6.0
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "action_id": "action_20251006_143050",
+    "db_record": {
+        "REQUESTID": null,
+        "REQUESTJSON": "{\"kibana.alert.rule.name\": \"Clearing Windows Event Logs\", \"@timestamp\": \"2025-10-06T05:59:37.143Z\", \"process\": {\"pid\": 15992, \"command_line\": \"wevtutil.exe cl system\", \"executable\": \"C:\\\\Windows\\\\SysWOW64\\\\wevtutil.exe\", \"name\": \"wevtutil.exe\"}, \"user\": {\"id\": \"S-1-5-18\", \"name\": \"VELOX\", \"domain\": \"NEERAJ-SHARMA\"}, \"host\": {\"ip\": \"192.168.0.39\", \"mac\": [\"74:56:3c:83:4c:8d\"], \"hostname\": \"Neeraj-Sharma\", \"architecture\": \"x86_64\", \"name\": \"Neeraj-Sharma.velox.co.in\"}, \"ip_list\": \"\\\"fe80::c069:2d3a:ef07:2147\\\",\\\"192.168.0.39\\\"\", \"event.action\": \"Process Create (rule: ProcessCreate)\", \"event.category\": [\"process\"], \"kibana.alert.workflow_status\": \"open\", \"kibana.alert.reason\": \"process event with process wevtutil.exe, parent process python.exe, by VELOX on Neeraj-Sharma.velox.co.in created low alert Clearing Windows Event Logs.\", \"kibana.alert.severity\": \"low\", \"kibana.alert.rule.description\": \"Identifies attempts to clear or disable Windows event log stores using Windows wevetutil command. This is often done by attackers in an attempt to evade detection or destroy forensic evidence on a system.\", \"_id\": \"0dbe4a28b02fbb951bc1f67df8683334abffb58257934c645540326425922a7d\", \"_relevance_score\": 9.0}",
+        "STATUS": "pending",
+        "ACTION": "Block Port",
+        "ACTIONTYPE": "automate",
+        "TYPE_RULES": "Clearing Windows Event Logs",
+        "BRANCH_NAME": "velox",
+        "SEVERITY": "low",
+        "REQUEST_COUNT": 1,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "EVENTID": null,
+        "VT_Response": null,
+        "ACTION_TAKEN_BY": "chatbot_user",
+        "PASSWORD": null,
+        "SUSPICIOUS": null,
+        "IPADDRESS": "192.168.0.39",
+        "INDEX_ID": "0dbe4a28b02fbb951bc1f67df8683334abffb58257934c645540326425922a7d",
+        "DATE": "06-10-2025 14:30:50"
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "Clearing Windows Event Logs",
+        "@timestamp": "2025-10-06T05:59:37.143Z",
+        "process": {
+            "pid": 15992,
+            "command_line": "wevtutil.exe cl system",
+            "executable": "C:\\Windows\\SysWOW64\\wevtutil.exe",
+            "name": "wevtutil.exe"
+        },
+        "user": {
+            "id": "S-1-5-18",
+            "name": "VELOX",
+            "domain": "NEERAJ-SHARMA"
+        },
+        "host": {
+            "ip": "192.168.0.39",
+            "mac": [
+                "74:56:3c:83:4c:8d"
+            ],
+            "hostname": "Neeraj-Sharma",
+            "architecture": "x86_64",
+            "name": "Neeraj-Sharma.velox.co.in"
+        },
+        "ip_list": "\"fe80::c069:2d3a:ef07:2147\",\"192.168.0.39\"",
+        "event.action": "Process Create (rule: ProcessCreate)",
+        "event.category": [
+            "process"
+        ],
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "process event with process wevtutil.exe, parent process python.exe, by VELOX on Neeraj-Sharma.velox.co.in created low alert Clearing Windows Event Logs.",
+        "kibana.alert.severity": "low",
+        "kibana.alert.rule.description": "Identifies attempts to clear or disable Windows event log stores using Windows wevetutil command. This is often done by attackers in an attempt to evade detection or destroy forensic evidence on a system.",
+        "_id": "0dbe4a28b02fbb951bc1f67df8683334abffb58257934c645540326425922a7d",
+        "_relevance_score": 9.0
+    }
+}

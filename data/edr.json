@@ -1,0 +1,653 @@
+{
+  "metadata": {
+    "tool_type": "EDR",
+    "tool_definition": "Endpoint Detection and Response (EDR) is a cybersecurity technology that continuously monitors endpoints (e.g., workstations, servers) to detect, investigate, and respond to advanced threats using behavioral analysis, threat intelligence, and automated remediation.",
+    "primary_use_cases": [
+      "Real-time threat detection",
+      "Incident investigation and forensics",
+      "Automated response actions (e.g., process termination)",
+      "Compliance monitoring"
+    ],
+    "version": "1.0",
+    "created": "2023-11-15",
+    "source": "Enterprise EDR Requirements Specification"
+  },
+  "specifications": [
+    {
+      "id": 1,
+      "role": "external",
+      "description": "The EDR solution must have advanced capabilities to detect and block files containing malicious executable content, including those hidden within embedded or compressed formats (e.g., ZIP, RAR) that use real-time compression algorithms. This includes analyzing file structures and heuristics to identify potentially harmful payloads even when obfuscated.",
+      "category": "File Protection",
+      "compliance": true
+    },
+    {
+      "id": 2,
+      "role": "external",
+      "description": "The system must provide comprehensive file management capabilities including the ability to: automatically block suspicious files matching threat signatures, quarantine potentially malicious files for further analysis, restore false positives after verification, and allow trusted files through security checks based on organizational policies.",
+      "category": "File Management",
+      "compliance": true
+    },
+    {
+      "id": 3,
+      "role": "external",
+      "description": "The solution must employ multi-layered malware detection techniques including: 1) Behavioral analysis to detect anomalous process activities indicative of malware, 2) Signature-based detection using regularly updated threat databases, and 3) Heuristic analysis to identify previously unknown threats based on suspicious characteristics.",
+      "category": "Malware Detection",
+      "compliance": true
+    },
+    {
+      "id": 4,
+      "role": "external",
+      "description": "The system must automatically scan all plug-and-play USB storage devices immediately upon connection to endpoints, before any files can be accessed. Scanning should include: file content inspection, autorun analysis, and verification of device fingerprints against known malicious devices.",
+      "category": "USB Protection",
+      "compliance": true
+    },
+    {
+      "id": 5,
+      "role": "external",
+      "description": "The solution must provide advanced threat remediation capabilities including: terminating malicious processes and threads in memory, repairing registry entries modified by threats, removing persistence mechanisms, cleaning up temporary files created by malware, and restoring system settings compromised by trojans or other threats.",
+      "category": "Threat Remediation",
+      "compliance": true
+    },
+    {
+      "id": 6,
+      "role": "external",
+      "description": "The system must be capable of automatically isolating compromised endpoints from the network when high-severity threats are detected. This includes both wired and wireless network disconnection, with options for granular control (e.g., isolate only specific network segments while maintaining management connectivity).",
+      "category": "Network Protection",
+      "compliance": true
+    },
+    {
+      "id": 7,
+      "role": "external",
+      "description": "The solution must allow administrators to configure exclusions for real-time scanning, including: specific file extensions (e.g., .log, .tmp), trusted file paths/directories, and system processes. Exclusions should be auditable and require justification to prevent security gaps.",
+      "category": "File Protection",
+      "compliance": true
+    },
+    {
+      "id": 8,
+      "role": "external",
+      "description": "The system must provide granular control over storage device access, including: 1) Read-only, read-write, or complete block access modes for USB devices, 2) Separate policies for CD/DVD drives, 3) Controls for memory card readers, and 4) The ability to enforce these policies based on device class, VID/PID, or other identifiers.",
+      "category": "Device Control",
+      "compliance": true
+    },
+    {
+      "id": 9,
+      "role": "external",
+      "description": "The solution must enable control over mobile device connections, including: blocking or allowing specific device types (Android, iOS, Blackberry), managing synchronization capabilities, and preventing data exfiltration through these channels. Policies should be enforceable based on device fingerprints and connection methods (USB, Bluetooth).",
+      "category": "Device Control",
+      "compliance": true
+    },
+    {
+      "id": 10,
+      "role": "external",
+      "description": "The system must support whitelisting of USB devices based on their unique serial numbers, allowing organizations to permit only authorized devices while blocking all others. This should include the ability to import/export approved serial number lists and integrate with asset management systems.",
+      "category": "Device Control",
+      "compliance": true
+    },
+    {
+      "id": 11,
+      "role": "external",
+      "description": "The solution must prevent USB tethering functionality that could allow bypassing network security controls. This includes blocking the creation of unauthorized network interfaces through connected mobile devices while maintaining the ability to permit approved tethering scenarios.",
+      "category": "Device Control",
+      "compliance": true
+    },
+    {
+      "id": 12,
+      "role": "external",
+      "description": "The system must collect comprehensive endpoint inventory data including: hardware specifications (CPU, RAM, disks), installed operating system details, peripheral devices, network configuration, and system health metrics. Data should be available through both real-time queries and scheduled reporting.",
+      "category": "Endpoint Management",
+      "compliance": true
+    },
+    {
+      "id": 13,
+      "role": "external",
+      "description": "The solution must generate detailed software inventory reports covering: all installed applications with versions, patch levels, known vulnerabilities, installation dates, and software usage statistics. Reports should highlight unauthorized or prohibited software installations.",
+      "category": "Reporting",
+      "compliance": true
+    },
+    {
+      "id": 14,
+      "role": "external",
+      "description": "The system must support hierarchical organizational structure modeling through user groups, with the ability to: create nested groups, assign multiple group memberships, synchronize with directory services (AD, LDAP), and enforce role-based access control based on group membership.",
+      "category": "User Management",
+      "compliance": true
+    },
+    {
+      "id": 15,
+      "role": "external",
+      "description": "The solution must enable assignment of distinct security policies to different user/device groups, with inheritance capabilities and conflict resolution mechanisms. Policy assignments should support testing modes before full enforcement and include version control for policy changes.",
+      "category": "Policy Management",
+      "compliance": true
+    },
+    {
+      "id": 16,
+      "role": "external",
+      "description": "Client software installation, upgrade, and removal must be restricted to authorized administrators only, with protections against: standard user uninstallation attempts, forced removal through system tools, and tampering with client services or processes.",
+      "category": "Administration",
+      "compliance": true
+    },
+    {
+      "id": 17,
+      "role": "external",
+      "description": "The solution must maintain full protective capabilities when endpoints are disconnected from the internet, including: local caching of threat intelligence, continued behavioral monitoring, and scheduled scan execution. Offline status should be monitored and reported upon reconnection.",
+      "category": "Offline Operation",
+      "compliance": true
+    },
+    {
+      "id": 18,
+      "role": "external",
+      "description": "The system must provide flexible update scheduling options including: multiple update channels (critical/regular), bandwidth throttling, time-based restrictions, and the ability to stage updates across different groups of endpoints for testing before broad deployment.",
+      "category": "Update Management",
+      "compliance": true
+    },
+    {
+      "id": 19,
+      "role": "external",
+      "description": "The solution must support offline software updates through manually imported packages, including: full version upgrades, component updates, and emergency patches. The process should include package verification and provide detailed update logs.",
+      "category": "Offline Operation",
+      "compliance": true
+    },
+    {
+      "id": 20,
+      "role": "external",
+      "description": "The system must allow manual import of threat intelligence updates including: malware signatures, IOCs (Indicators of Compromise), reputation data, and detection rules. Import mechanisms should support multiple formats and provide validation of imported content.",
+      "category": "Offline Operation",
+      "compliance": true
+    },
+    {
+      "id": 21,
+      "role": "external",
+      "description": "The management console must provide a secure, centralized interface (either GUI or web-based) with: role-based access controls, multi-factor authentication, audit logging of all administrative actions, and real-time visibility into all protected endpoints and servers across the organization.",
+      "category": "Management Console",
+      "compliance": true
+    },
+    {
+      "id": 22,
+      "role": "external",
+      "description": "The solution must enable administrators to roll back updates (both software and signatures) to previous known-good versions when compatibility or performance issues arise. Rollback operations should preserve configuration settings and include impact analysis capabilities.",
+      "category": "Update Management",
+      "compliance": true
+    },
+    {
+      "id": 23,
+      "role": "external",
+      "description": "The system must implement granular role-based administration with: predefined roles (Auditor, Operator, Administrator), customizable permission sets, separation of duties enforcement, and integration with enterprise identity providers for authentication.",
+      "category": "User Management",
+      "compliance": true
+    },
+    {
+      "id": 24,
+      "role": "external",
+      "description": "The solution must maintain comprehensive logs of all management server activities including: configuration changes, policy updates, user access, alert handling, and system health events. Logs should be tamper-evident and support centralized collection for SIEM integration.",
+      "category": "Logging",
+      "compliance": true
+    },
+    {
+      "id": 25,
+      "role": "external",
+      "description": "The system must support report export in multiple standard formats including: PDF for printable reports, CSV for data analysis, and potentially JSON/XML for system integration. Export functionality should include scheduling and automated distribution capabilities.",
+      "category": "Reporting",
+      "compliance": true
+    },
+    {
+      "id": 26,
+      "role": "external",
+      "description": "The solution must enable automated report generation and distribution including: scheduled execution, customizable distribution lists, encrypted email delivery, and integration with enterprise reporting platforms or portals.",
+      "category": "Reporting",
+      "compliance": true
+    },
+    {
+      "id": 27,
+      "role": "external",
+      "description": "The solution must support heterogeneous environments including: Windows (all currently supported versions), Linux distributions (RHEL, Rocky Linux, Ubuntu, etc.), with consistent functionality across platforms. Agent deployment should support platform-specific package managers and deployment tools.",
+      "category": "Platform Support",
+      "compliance": true
+    },
+    {
+      "id": 28,
+      "role": "external",
+      "description": "The product architecture must ensure no endpoint telemetry data (file scans, process information, user activity, etc.) is transmitted to or stored in public cloud environments without explicit organizational approval. All data must remain within organization-controlled infrastructure.",
+      "category": "Data Privacy",
+      "compliance": true
+    },
+    {
+      "id": 29,
+      "role": "external",
+      "description": "The solution must natively support multi-site deployments with: centralized management of geographically distributed locations, location-specific policy assignments, bandwidth-efficient communication between sites, and consolidated reporting across the entire organization.",
+      "category": "Scalability",
+      "compliance": true
+    },
+    {
+      "id": 30,
+      "role": "external",
+      "description": "The system must maintain detailed, tamper-evident logs of all incident response activities including: containment actions taken, forensic data collected, analyst notes, and remediation steps. These logs should support chain-of-custody requirements for investigations.",
+      "category": "Incident Response",
+      "compliance": true
+    },
+    {
+      "id": 31,
+      "role": "external",
+      "description": "The solution must implement robust anti-tamper protections including: self-protection of client processes, prevention of unauthorized configuration changes, detection of tampering attempts, and automatic remediation of compromised components.",
+      "category": "Security",
+      "compliance": true
+    },
+    {
+      "id": 32,
+      "role": "external",
+      "description": "The EDR capabilities must provide comprehensive endpoint visibility including: process creation tracking, file system modifications, registry changes, network connections, and user activity. Detection should be context-aware, correlating events across multiple system components.",
+      "category": "EDR",
+      "compliance": true
+    },
+    {
+      "id": 33,
+      "role": "external",
+      "description": "The solution must maintain effective malware protection when endpoints are offline through: locally cached detection rules, behavioral analysis capabilities, and cached reputation data. Protection levels should be configurable based on offline duration expectations.",
+      "category": "Offline Protection",
+      "compliance": true
+    },
+    {
+      "id": 34,
+      "role": "external",
+      "description": "The EDR solution must incorporate AI/ML models for: static file analysis before execution, runtime behavior analysis, anomaly detection across endpoints, and false positive reduction. Models should be regularly updated and explainable to security analysts.",
+      "category": "EDR",
+      "compliance": true
+    },
+    {
+      "id": 35,
+      "role": "external",
+      "description": "The vendor must provide professional services for: assessment of current AV solutions, proper uninstallation of existing software, deployment of the new solution, configuration according to organizational requirements, and validation of proper functioning.",
+      "category": "Deployment",
+      "compliance": true
+    },
+    {
+      "id": 36,
+      "role": "external",
+      "description": "The vendor must conduct comprehensive on-premises training covering: product architecture, daily operations, advanced troubleshooting, policy configuration, and best practices. Training should include hands-on labs and realistic scenario exercises.",
+      "category": "Training",
+      "compliance": true
+    },
+    {
+      "id": 37,
+      "role": "external",
+      "description": "The solution must identify vulnerabilities in installed software by: matching versions against CVE databases, assessing missing patches, detecting insecure configurations, and prioritizing findings based on exploitability and organizational context.",
+      "category": "Vulnerability Management",
+      "compliance": true
+    },
+    {
+      "id": 38,
+      "role": "external",
+      "description": "The system must monitor and log file handling activities including: creations, modifications, deletions, and permission changes across local, removable, and network storage. Monitoring should include file content inspection for sensitive data movements.",
+      "category": "File Activity Monitoring",
+      "compliance": true
+    },
+    {
+      "id": 39,
+      "role": "external",
+      "description": "The solution must track and alert on system changes including: hardware additions/removals, driver updates, software installations/modifications, and configuration changes. Notifications should be configurable based on change criticality.",
+      "category": "Change Monitoring",
+      "compliance": true
+    },
+    {
+      "id": 40,
+      "role": "external",
+      "description": "The system must detect and prevent intrusion attempts including: network scanning, brute force attacks, exploit attempts, and anomalous traffic patterns. Protection should cover both external attacks and lateral movement attempts.",
+      "category": "Intrusion Prevention",
+      "compliance": true
+    },
+    {
+      "id": 41,
+      "role": "internal",
+      "description": "The solution must generate detailed security incident reports covering: policy violations, suspicious network traffic, attempted exploits, and potential data exfiltration. Reports should support regulatory compliance requirements.",
+      "category": "Reporting",
+      "compliance": true
+    },
+    {
+      "id": 42,
+      "role": "internal",
+      "description": "The system must protect against network reconnaissance and denial-of-service attacks through: detection of port scanning patterns, rate limiting of connections, blocking of malformed packets, and identification of attack tool signatures.",
+      "category": "Network Protection",
+      "compliance": true
+    },
+    {
+      "id": 43,
+      "role": "internal",
+      "description": "The firewall component must support creation of granular rules based on: source/destination IP addresses, port numbers, protocols (TCP/UDP/ICMP), application identities, and time-based restrictions. Rules should support both allow and deny actions with logging options.",
+      "category": "Firewall",
+      "compliance": true
+    },
+    {
+      "id": 44,
+      "role": "external",
+      "description": "The solution must inspect and control all network traffic with capabilities for: protocol validation, payload inspection, TLS/SSL decryption (where authorized), and application identification. Controls should be configurable based on network zones.",
+      "category": "Network Protection",
+      "compliance": true
+    },
+    {
+      "id": 45,
+      "role": "internal",
+      "description": "The system must prevent unauthorized webcam access by: detecting and blocking unexpected camera activation, alerting on suspicious process access attempts, and providing user controls over camera permissions with override capabilities.",
+      "category": "Device Security",
+      "compliance": true
+    },
+    {
+      "id": 46,
+      "role": "internal",
+      "description": "The solution must block access to known malicious and phishing websites through: real-time URL categorization, reputation scoring, SSL certificate inspection, and integration with threat intelligence feeds. Blocks should include explanatory user notifications.",
+      "category": "Web Protection",
+      "compliance": true
+    },
+    {
+      "id": 47,
+      "role": "internal",
+      "description": "The system must enable category-based web filtering with: predefined categories (adult, gambling, etc.), custom category creation, time-based access controls, and differential policies for user groups. Categories should be regularly updated.",
+      "category": "Web Protection",
+      "compliance": true
+    },
+    {
+      "id": 48,
+      "role": "internal",
+      "description": "The solution must provide granular URL control including: exact domain blocking, subdomain wildcards, path-specific restrictions, and exception lists. Controls should support both manual entry and bulk import/export of URL lists.",
+      "category": "Web Protection",
+      "compliance": true
+    },
+    {
+      "id": 49,
+      "role": "internal",
+      "description": "The system must allow policy configuration for uncategorized sites including: default block/allow actions, user notification options, and submission for categorization review. Uncategorized site access attempts should be logged for analysis.",
+      "category": "Web Protection",
+      "compliance": true
+    },
+    {
+      "id": 50,
+      "role": "internal",
+      "description": "The solution must provide specialized controls for YouTube including: blocking based on video category (music, gaming, etc.), channel restrictions, content rating limits, and time-based access controls. Policies should integrate with general web filtering rules.",
+      "category": "Web Protection",
+      "compliance": true
+    },
+    {
+      "id": 51,
+      "role": "internal",
+      "description": "The system must support ingestion of external threat intelligence including: STIX/TAXII feeds, custom IOC lists (hashes, IPs, domains), and integration with third-party threat intelligence platforms. Imported IOCs should be automatically applied to detection mechanisms.",
+      "category": "Threat Intelligence",
+      "compliance": true
+    },
+    {
+      "id": 52,
+      "role": "internal",
+      "description": "The solution must monitor and report on data transfer channels including: web uploads, email attachments, cloud storage syncs, and removable media usage. Reports should highlight potential policy violations and data exfiltration attempts.",
+      "category": "Data Loss Prevention",
+      "compliance": true
+    },
+    {
+      "id": 53,
+      "role": "internal",
+      "description": "The system must track printing activities including: document names, printer used, user information, and timestamps. Monitoring should cover both local and network printers, with options for print job content inspection.",
+      "category": "Activity Monitoring",
+      "compliance": true
+    },
+    {
+      "id": 54,
+      "role": "internal",
+      "description": "The solution must enable blocking of files based on: extension lists, file type signatures (regardless of extension), and content inspection results. Block actions should be configurable (prevent access, quarantine, or alert only).",
+      "category": "File Protection",
+      "compliance": true
+    },
+    {
+      "id": 55,
+      "role": "internal",
+      "description": "The system must monitor data transfers through applications including: web browsers, email clients, instant messaging, and file transfer tools. Monitoring should detect both authorized and unauthorized transfer channels.",
+      "category": "Data Loss Prevention",
+      "compliance": true
+    },
+    {
+      "id": 56,
+      "role": "internal",
+      "description": "The solution must support flexible scan initiation including: console-triggered scans of individual endpoints or groups, endpoint-user-initiated scans with optional authentication, and API-triggered scans for integration with other systems.",
+      "category": "Scanning",
+      "compliance": true
+    },
+    {
+      "id": 57,
+      "role": "internal",
+      "description": "The system must provide forensic investigation capabilities including: disk file analysis, memory process examination, registry inspection, and timeline reconstruction. Data collection should be minimally invasive to endpoint operations.",
+      "category": "Forensics",
+      "compliance": true
+    },
+    {
+      "id": 58,
+      "role": "internal",
+      "description": "The solution must offer advanced incident response actions including: process termination with dependency handling, network isolation with management channel preservation, and malicious file neutralization without deletion (for evidence preservation).",
+      "category": "Incident Response",
+      "compliance": true
+    },
+    {
+      "id": 59,
+      "role": "internal",
+      "description": "The vendor must provide a current, independently-verified certificate confirming the absence of malicious code in the product. The certificate should cover all components including installers, updates, and management consoles.",
+      "category": "Certification",
+      "compliance": true
+    },
+    {
+      "id": 60,
+      "role": "internal",
+      "description": "The vendor must supply a Manufacturer's Authorization Form (MAF) validating: product authenticity, support commitments, and compliance with specified requirements. The form should be signed by an authorized company representative.",
+      "category": "Documentation",
+      "compliance": true
+    },
+    {
+      "id": 61,
+      "role": "internal",
+      "description": "The Data Collection Layer consists of lightweight agents deployed on endpoints (Windows, Linux, macOS) that monitor system activity through kernel-level hooks and event tracing. Agents collect process creation, file system changes, registry modifications, network connections, and user authentication events in real-time with minimal performance impact (<3% CPU overhead).",
+      "category": "Data Collection",
+      "compliance": true
+    },
+    {
+      "id": 62,
+      "role": "internal",
+      "description": "The Event Processing Engine normalizes raw telemetry into OCSF (Open Cybersecurity Schema Framework) format. It performs event correlation (e.g., linking process -> network -> file events), deduplication (30% volume reduction), and enrichment (threat intel lookups, asset context) using a stream processing architecture (Apache Kafka + Flink). Processing latency is maintained under 500ms.",
+      "category": "Event Processing",
+      "compliance": true
+    },
+    {
+      "id": 63,
+      "role": "internal",
+      "description": "The Detection Engine employs both signature-based (YARA, Sigma rules) and behavioral detection (ML models analyzing process trees, anomalous network patterns). The multi-stage approach reduces false positives: 1) Rule matching (100K+ MITRE-mapped rules) -> 2) Anomaly scoring (Isolation Forest model) -> 3) Contextual risk assessment (business criticality, attack progression). Mean detection time: 45 seconds post-event.",
+      "category": "Threat Detection",
+      "compliance": false
+    },
+    {
+      "id": 64,
+      "role": "internal",
+      "description": "The Storage Layer uses a hybrid approach: Hot data (last 30 days) in Elasticsearch for fast queries (P99 <2s), warm data (31-90 days) in Parquet files on S3, with a unified query layer (Apache Iceberg). Encryption: AES-256 at rest, TLS 1.3 in transit. Retention policy: 90 days standard, 1 year for compliance cases.",
+      "category": "Data Storage",
+      "compliance": true
+    },
+    {
+      "id": 65,
+      "role": "internal",
+      "description": "The Response Module enables automated containment (process termination, network isolation) and manual actions (remote shell, memory dump). Integrates with ITSM tools (ServiceNow, Jira) for ticket creation. Playbooks support conditional logic (e.g., 'If ransomware detected AND on finance server THEN isolate and alert SOC'). Average containment time: 78 seconds.",
+      "category": "Incident Response",
+      "compliance": true
+    },
+    {
+      "id": 66,
+      "role": "internal",
+      "description": "The Management Console provides RBAC (4 predefined roles: Viewer, Analyst, Responder, Admin) with SAML 2.0 integration. UI components include: 1) Threat dashboard (real-time attack chain visualizations) 2) Query builder (KQL/PPL support) 3) Case management (collaboration threads, evidence locker). Accessibility: WCAG 2.1 AA compliant.",
+      "category": "Management Interface",
+      "compliance": true
+    },
+    {
+      "id": 67,
+      "role": "internal",
+      "description": "The API Gateway exposes RESTful endpoints (Swagger 3.0 documented) for SIEM integration (Splunk, Sentinel), automation (Python SDK), and data export (OCSF JSON). Rate limiting: 1000 requests/minute. Authentication: OAuth 2.0 with JWT (256-bit keys). All endpoints support gRPC for high-volume streaming.",
+      "category": "Integration Layer",
+      "compliance": false
+    },
+    {
+      "id": 68,
+      "role": "internal",
+      "description": "The Threat Intelligence Module aggregates feeds from 15+ sources (VirusTotal, AlienVault, internal honeypots) with 2M+ IoCs updated hourly. Supports TLP tagging and custom list creation. Matching occurs in-stream (1ms latency per event) with retro-search capability across 90-day data.",
+      "category": "Threat Intelligence",
+      "compliance": true
+    },
+    {
+      "id": 69,
+      "role": "internal",
+      "description": "The Deployment Architecture supports both cloud-native (AWS/Azure/GCP Kubernetes clusters) and on-prem (VMware, bare-metal) deployments. Scalability: 1 agent per 50K endpoints, 1 processing node per 10K EPS. Geo-redundancy: Active-active datacenters with <30s failover.",
+      "category": "System Scalability",
+      "compliance": true
+    },
+    {
+      "id": 70,
+      "role": "internal",
+      "description": "The Forensic Data Lake retains raw telemetry (PCAPs, memory dumps, binary artifacts) in immutable storage (WORM compliance). Tools: Velociraptor integration for live collection, automated malware sandboxing (Cuckoo, JoeSandbox), and timeline reconstruction (Plaso/Log2Timeline).",
+      "category": "Forensics",
+      "compliance": true
+    },
+    {
+      "id": 71,
+      "role": "internal",
+      "description": "The Policy Engine enforces granular security policies (allow/deny lists, behavioral rules) with hierarchical inheritance (global → group → host). Supports conditional policies (e.g., 'Block PowerShell unless signed by Corp CA AND from IT subnets'). Policy evaluation latency: <5ms per event.",
+      "category": "Policy Management",
+      "compliance": true
+    },
+    {
+      "id": 72,
+      "role": "internal",
+      "description": "The Sandbox Analysis Module executes suspicious files in isolated environments (QEMU-based VMs with API hooks). Analyzes 150+ behavioral indicators (registry changes, network callouts, process injection). Average analysis time: 90s per sample.",
+      "category": "Malware Analysis",
+      "compliance": true
+    },
+    {
+      "id": 73,
+      "role": "internal",
+      "description": "The Deception Module deploys honeypots (fake shares, services, credentials) across the network. Triggers high-fidelity alerts on interaction (98% malicious intent correlation). Integrated with threat intelligence for attacker profiling.",
+      "category": "Deception Technology",
+      "compliance": false
+    },
+    {
+      "id": 74,
+      "role": "internal",
+      "description": "The UEBA (User Entity Behavior Analytics) engine builds baselines for users/hosts using 30+ features (logon times, data access patterns). Anomalies are scored via LightGBM models (F1-score: 0.92).",
+      "category": "Behavioral Analytics",
+      "compliance": true
+    },
+    {
+      "id": 75,
+      "role": "internal",
+      "description": "The Vulnerability Correlation Module maps detected threats to CVE/CWE (e.g., 'T1190 → CVE-2023-1234'). Prioritizes remediation using EPSS scores and asset criticality. Integrates with patch management systems.",
+      "category": "Vulnerability Integration",
+      "compliance": true
+    },
+    {
+      "id": 76,
+      "role": "internal",
+      "description": "The Mobile EDR Agent extends protection to iOS/Android devices, monitoring jailbreak attempts, malicious apps, and network tunneling. Data collection: 15MB/month per device.",
+      "category": "Mobile Security",
+      "compliance": false
+    },
+    {
+      "id": 77,
+      "role": "internal",
+      "description": "The Cloud Workload Protection module secures AWS EC2, Azure VMs, and containers (Docker/K8s) via eBPF instrumentation. Detects cloud-specific threats (IAM credential abuse, cryptojacking).",
+      "category": "Cloud Security",
+      "compliance": true
+    },
+    {
+      "id": 78,
+      "role": "internal",
+      "description": "The SOAR Integration Hub provides pre-built playbooks for 50+ third-party tools (Firewalls, EPP, CMDB). Supports custom Python workflows with atomic actions (e.g., 'Block IP → Quarantine Host → Create Ticket').",
+      "category": "Automation",
+      "compliance": true
+    },
+    {
+      "id": 79,
+      "role": "internal",
+      "description": "The Compliance Reporting Engine generates ready-to-submit reports for PCI DSS, HIPAA, and GDPR. Auto-maps controls to EDR events (e.g., 'Req 8.2 → Successful/Failed Logons').",
+      "category": "Compliance Reporting",
+      "compliance": true
+    },
+    {
+      "id": 80,
+      "role": "internal",
+      "description": "The Threat Hunting Workbench provides Jupyter notebook integration, pre-built queries (KQL, Sigma), and attack simulation tools (Caldera, Atomic Red Team) for proactive threat discovery.",
+      "category": "Threat Hunting",
+      "compliance": true
+    },
+    {
+      "id": 81,
+      "role": "internal",
+      "description": "The Data Loss Prevention (DLP) module monitors for sensitive data exfiltration (credit cards, PII) using regex and fingerprinting. Supports 200+ file types with OCR for images/PDFs.",
+      "category": "DLP",
+      "compliance": false
+    },
+    {
+      "id": 82,
+      "role": "internal",
+      "description": "The Zero Trust Enforcement Proxy validates device posture (EDR agent health, patch level) before granting application access. Implements continuous authentication during sessions.",
+      "category": "Zero Trust",
+      "compliance": true
+    }
+  ],
+  "categories": [
+    "File Protection",
+    "Malware Detection",
+    "USB Protection",
+    "Network Protection",
+    "Device Control",
+    "Endpoint Management",
+    "User Management",
+    "Policy Management",
+    "Reporting",
+    "EDR",
+    "Web Protection",
+    "Data Loss Prevention",
+    "Incident Response",
+    "Vulnerability Management",
+    "Data Collection",
+    "Event Processing",
+    "Threat Detection",
+    "Data Storage",
+    "Management Interface",
+    "Integration Layer",
+    "System Scalability",
+    "Forensics",
+    "Malware Analysis",
+    "Deception Technology",
+    "Behavioral Analytics",
+    "Vulnerability Integration",
+    "Mobile Security",
+    "Cloud Security",
+    "Automation",
+    "Compliance Reporting",
+    "Threat Hunting",
+    "DLP",
+    "Zero Trust"
+  ],
+  "architecture_summary": {
+    "components_documented": 22,
+    "compliance_met": 17,
+    "compliance_missing": 5,
+    "compliance_score": 77.27,
+    "security_certifications": [
+      "SOC 2 Type II",
+      "ISO 27001",
+      "Common Criteria EAL4+",
+      "FIPS 140-2",
+      "GDPR Article 32"
+    ],
+    "new_categories_added": [
+      "Policy Management",
+      "Malware Analysis",
+      "Deception Technology",
+      "Behavioral Analytics",
+      "Vulnerability Integration",
+      "Mobile Security",
+      "Cloud Security",
+      "Automation",
+      "Compliance Reporting",
+      "Threat Hunting",
+      "DLP",
+      "Zero Trust"
+    ]
+  }
+}

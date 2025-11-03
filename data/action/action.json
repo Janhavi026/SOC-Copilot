@@ -1,0 +1,232 @@
+[
+  {
+    "kibana.alert.rule.name": "Enumeration of Administrator Accounts",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Unusual Parent-Child Relationship",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block IP",
+      " Unblock IP"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Windows Network Enumeration",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block Account",
+      " Unblock Account"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Suspicious MS Office Child Process",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Start Service",
+      " Stop Service",
+      " Start Process",
+      " Stop Process",
+      " Delete File",
+      " Reset Password",
+      " Service enable",
+      " Service disable",
+      " Block File",
+      " Unblock File"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Whoami Process Activity",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Credential Acquisition via Registry Hive Dumping",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Multiple Alerts in Different ATT&CK Tactics on a Single Host",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall",
+      " Disable Network"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Mounting Hidden or WebDav Remote Shares",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Block IP",
+      " Unblock IP",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Suspicious CertUtil Commands",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block Account",
+      " Unblock Account"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Unusual Network Activity from a Windows System Binary",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Disable Network"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Disable Windows Firewall Rules via Netsh",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Failed logins Followed By Successful Login and a Password Change",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Block IP",
+      " Unblock IP",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Multiple Failed logins Followed By Successful Login",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Block IP",
+      " Unblock IP",
+      " Enable Firewall",
+      " Disable Firewall",
+      " Reset Password"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Suspicious Network Traffic with Failed logins",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Block IP",
+      " Unblock IP",
+      " Enable Firewall",
+      " Disable Firewall",
+      " Reset Password"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Windows Firewall State : OFF",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block Port",
+      " Allow Port",
+      " Start Service",
+      " Stop Service",
+      " Stop Process",
+      " Delete File",
+      " Reset Password",
+      " Service enable",
+      " Service disable",
+      " Block File",
+      " Unblock File"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Windows Service Installed via an Unusual Client",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Service Command Lateral Movement",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Multiple Alerts Involving a User",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "File Creation Time Changed",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block Port",
+      " Allow Port",
+      " Start Service",
+      " Stop Service"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Clearing Windows Event Logs",
+    "action": [
+      " Enable Firewall",
+      " Disable Firewall",
+      " Block Port",
+      " Allow Port",
+      " Start Service",
+      " Stop Service",
+      " Stop Process",
+      " Delete File",
+      " Service enable",
+      " Service disable",
+      " Block File",
+      " Unblock File"
+    ]
+  },
+  {
+    "kibana.alert.rule.name": "Mshta Making Network Connections",
+    "action": [
+      " Block Account",
+      " Unblock Account",
+      " Enable Firewall",
+      " Disable Firewall"
+    ]
+  }
+]

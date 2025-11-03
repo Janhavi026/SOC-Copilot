@@ -1,0 +1,64 @@
+{
+    "action_id": "action_20251010_175004",
+    "db_record": {
+        "SR_NO": null,
+        "ACTION": "Block IP",
+        "ACTIONTYPE": "Automation",
+        "DATE": "10-10-2025 08:44:22",
+        "INDEX_ID": "0073dced0a2dd048f3e7207ae70700e2ef70fac88cfa485a0c028b7e53dd1e7c",
+        "IPADDRESS": "192.168.0.56",
+        "PASSWORD": null,
+        "REQUESTID": null,
+        "REQUESTJSON": "[{\"severity\": \"low\", \"ipaddress\": \"N/A\", \"actionType\": \"Manual\", \"password\": \"\", \"action\": \"Block IP\", \"id\": \"0073dced0a2dd048f3e7207ae70700e2ef70fac88cfa485a0c028b7e53dd1e7c\", \"suspicious\": \"\", \"typerules\": \"Potential Application Shimming via Sdbinst\", \"timestamp\": \"10-10-2025 08:44:22\"}]",
+        "REQUEST_COUNT": 1,
+        "REQUEST_TYPE": null,
+        "STATUS": "Inprocess",
+        "SUSPICIOUS": null,
+        "TYPE_RULES": "Potential Application Shimming via Sdbinst",
+        "BRANCH_NAME": "velox",
+        "EVENTID": null,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "SEVERITY": "low",
+        "PLAYBOOKNAME": null,
+        "ACTION_TAKEN_BY": null,
+        "VT_Response": null
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "Potential Application Shimming via Sdbinst",
+        "@timestamp": "2025-10-10T08:44:22.171Z",
+        "host": {
+            "architecture": "x86_64",
+            "ip": "192.168.0.56",
+            "hostname": "Kartik",
+            "mac": [
+                "10:ff:e0:5f:b0:e3"
+            ],
+            "name": "Kartik"
+        },
+        "ip_list": "\"fe80::b654:2994:3e0e:55be\",\"192.168.0.56\"",
+        "user": {
+            "domain": "WORKGROUP",
+            "id": "S-1-5-18",
+            "name": "KARTIK$"
+        },
+        "process": {
+            "name": "sdbinst.exe",
+            "pid": 186712,
+            "executable": "C:\\Windows\\System32\\sdbinst.exe"
+        },
+        "logger_ip": "192.168.0.56",
+        "event.action": "Process Created",
+        "event.outcome": "success",
+        "event.category": [
+            "process"
+        ],
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "process event with process sdbinst.exe, parent process svchost.exe, by KARTIK$ on Kartik created low alert Potential Application Shimming via Sdbinst.",
+        "kibana.alert.severity": "low",
+        "kibana.alert.rule.description": "The Application Shim was created to allow for backward compatibility of software as the operating system codebase changes over time. This Windows functionality has been abused by attackers to stealthily gain persistence and arbitrary code execution in legitimate Windows processes.",
+        "kibana.alert.rule.rule_id": "fd4a992d-6130-4802-9ff8-829b89ae801f",
+        "_id": "0073dced0a2dd048f3e7207ae70700e2ef70fac88cfa485a0c028b7e53dd1e7c",
+        "_relevance_score": 3.0
+    }
+}

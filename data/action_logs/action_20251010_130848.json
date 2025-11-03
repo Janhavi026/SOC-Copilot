@@ -1,0 +1,59 @@
+{
+    "action_id": "action_20251010_130848",
+    "db_record": {
+        "SR_NO": null,
+        "ACTION": "Investigate Alert",
+        "ACTIONTYPE": "Automation",
+        "DATE": "10-10-2025 05:00:11",
+        "INDEX_ID": "37d44b0aeee9ec7fdc24202406001cb4a6dcfd23405104a92b83ea58cfa0c12e",
+        "IPADDRESS": "192.168.0.1",
+        "PASSWORD": null,
+        "REQUESTID": null,
+        "REQUESTJSON": "[{\"severity\": \"medium\", \"ipaddress\": \"192.168.0.34\", \"actionType\": \"Manual\", \"password\": \"\", \"action\": \"Investigate Alert\", \"id\": \"37d44b0aeee9ec7fdc24202406001cb4a6dcfd23405104a92b83ea58cfa0c12e\", \"suspicious\": \"\", \"typerules\": \"Abnormally Large DNS Response\", \"timestamp\": \"10-10-2025 05:00:11\"}]",
+        "REQUEST_COUNT": 1,
+        "REQUEST_TYPE": null,
+        "STATUS": "Inprocess",
+        "SUSPICIOUS": null,
+        "TYPE_RULES": "Abnormally Large DNS Response",
+        "BRANCH_NAME": "velox",
+        "EVENTID": null,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "SEVERITY": "medium",
+        "PLAYBOOKNAME": null,
+        "ACTION_TAKEN_BY": null,
+        "VT_Response": null
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "Abnormally Large DNS Response",
+        "@timestamp": "2025-10-10T05:00:11.898Z",
+        "destination": {
+            "port": 53,
+            "ip": "8.8.8.8"
+        },
+        "rule": {
+            "name": "Lan_Wan"
+        },
+        "source": {
+            "port": 56452,
+            "ip": "192.168.0.34"
+        },
+        "ip_list": "\"192.168.0.1\"",
+        "network": {
+            "protocol": "dns"
+        },
+        "logger_ip": "192.168.0.1",
+        "event.action": "accept",
+        "event.category": [
+            "network"
+        ],
+        "event.outcome": "success",
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "network event with source 192.168.0.34:56452, destination 8.8.8.8:53, created medium alert Abnormally Large DNS Response.",
+        "kibana.alert.severity": "medium",
+        "kibana.alert.rule.description": "Specially crafted DNS requests can manipulate a known overflow vulnerability in some Windows DNS servers, resulting in Remote Code Execution (RCE) or a Denial of Service (DoS) from crashing the service.",
+        "kibana.alert.rule.rule_id": "11013227-0301-4a8c-b150-4db924484475",
+        "_id": "37d44b0aeee9ec7fdc24202406001cb4a6dcfd23405104a92b83ea58cfa0c12e",
+        "_relevance_score": 9.0
+    }
+}

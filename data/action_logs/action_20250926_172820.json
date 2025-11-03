@@ -1,0 +1,15 @@
+{
+  "action_id": "action_20250926_172820",
+  "action_name": "Review Logs",
+  "timestamp": "2025-09-26T17:28:20.938498",
+  "status": "executed",
+  "elasticsearch_doc_id": "0217be9478651fc25caecfedba5cc2b36b8feda7a75fe0e4aa72706d8ea58c53",
+  "kibana.alert.workflow_status": "open",
+  "@timestamp": "2025-09-24T05:18:08.950Z",
+  "event.category": [
+    "process"
+  ],
+  "kibana.alert.rule.name": "Suspicious CertUtil Commands",
+  "kibana.alert.rule.description": "Identifies suspicious commands being used with certutil.exe. CertUtil is a native Windows component which is part of Certificate Services. CertUtil is often abused by attackers to live off the land for stealthier command and control or data exfiltration.",
+  "alert_id": "result_10"
+}

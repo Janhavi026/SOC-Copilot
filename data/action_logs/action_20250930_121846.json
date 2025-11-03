@@ -1,0 +1,25 @@
+{
+    "action_id": "action_20250930_121846",
+    "db_record": {
+        "REQUESTID": null,
+        "REQUESTJSON": "{\"id\": \"result_2\", \"title\": \"Usermode (User: VELOX, Dest: 192.168.0.182, Host: Shubham-Dandkar, IP: 192.168.0.182, Src: 192.168.0.182)\", \"timestamp\": \"2025-09-25T07:16:19.731Z\", \"summary\": \"**User**: VELOX\", \"relevance_score\": 3.0, \"full_document\": {\"kibana.alert.rule.name\": \"Suspicious Network Traffic with Failed Logins\", \"@timestamp\": \"2025-09-25T07:16:19.731Z\", \"destination\": {\"ip\": \"192.168.0.182\", \"port\": 58728}, \"user\": {\"domain\": \"SHUBHAM-DANDKAR\", \"id\": \"S-1-5-18\", \"name\": \"VELOX\"}, \"host\": {\"name\": \"Shubham-Dandkar.velox.co.in\", \"ip\": \"192.168.0.182\", \"architecture\": \"x86_64\", \"hostname\": \"Shubham-Dandkar\", \"mac\": [\"b4:2e:99:4f:52:09\"]}, \"process\": {\"pid\": 13284, \"executable\": \"C:\\\\Users\\\\VELOX\\\\Downloads\\\\Spring\\\\SpringToolSuite4.exe\", \"name\": \"SpringToolSuite4.exe\"}, \"ip_list\": \"\\\"fe80::224:233f:28ca:378d\\\",\\\"192.168.0.182\\\"\", \"source\": {\"ip\": \"192.168.0.182\", \"port\": 60435}, \"rule\": {\"name\": \"Usermode\"}, \"network\": {\"protocol\": \"-\", \"direction\": \"ingress\"}, \"event.action\": \"Network connection detected (rule: NetworkConnect)\", \"event.category\": [\"network\"], \"kibana.alert.workflow_status\": \"open\", \"kibana.alert.reason\": \"network event with process SpringToolSuite4.exe, source 192.168.0.182:60435, destination 192.168.0.182:58728, by VELOX on Shubham-Dandkar.velox.co.in created high alert Suspicious Network Traffic with Failed Logins.\", \"kibana.alert.severity\": \"high\", \"kibana.alert.rule.description\": \"Suspicious Network Traffic with Failed Logins\", \"_id\": \"a3d75b073a8c44d19eca9aa6a8f334cbce9af6a0e422ae1d767d7c68a6bd6929\", \"_relevance_score\": 3.0}, \"details_table\": [{\"Field\": \"kibana.alert.rule.name\", \"Value\": \"Suspicious Network Traffic with Failed Logins\"}, {\"Field\": \"@timestamp\", \"Value\": \"2025-09-25T07:16:19.731Z\"}, {\"Field\": \"destination.ip\", \"Value\": \"192.168.0.182\"}, {\"Field\": \"destination.port\", \"Value\": \"58728\"}, {\"Field\": \"user.domain\", \"Value\": \"SHUBHAM-DANDKAR\"}, {\"Field\": \"user.id\", \"Value\": \"S-1-5-18\"}, {\"Field\": \"user.name\", \"Value\": \"VELOX\"}, {\"Field\": \"host.name\", \"Value\": \"Shubham-Dandkar.velox.co.in\"}, {\"Field\": \"host.ip\", \"Value\": \"192.168.0.182\"}, {\"Field\": \"host.architecture\", \"Value\": \"x86_64\"}, {\"Field\": \"host.hostname\", \"Value\": \"Shubham-Dandkar\"}, {\"Field\": \"host.mac[0]\", \"Value\": \"b4:2e:99:4f:52:09\"}, {\"Field\": \"process.pid\", \"Value\": \"13284\"}, {\"Field\": \"process.executable\", \"Value\": \"C:\\\\Users\\\\VELOX\\\\Downloads\\\\Spring\\\\SpringToolSuite4.exe\"}, {\"Field\": \"process.name\", \"Value\": \"SpringToolSuite4.exe\"}, {\"Field\": \"ip_list\", \"Value\": \"\\\"fe80::224:233f:28ca:378d\\\",\\\"192.168.0.182\\\"\"}, {\"Field\": \"source.ip\", \"Value\": \"192.168.0.182\"}, {\"Field\": \"source.port\", \"Value\": \"60435\"}, {\"Field\": \"rule.name\", \"Value\": \"Usermode\"}, {\"Field\": \"network.protocol\", \"Value\": \"-\"}, {\"Field\": \"network.direction\", \"Value\": \"ingress\"}, {\"Field\": \"event.action\", \"Value\": \"Network connection detected (rule: NetworkConnect)\"}, {\"Field\": \"event.category[0]\", \"Value\": \"network\"}, {\"Field\": \"kibana.alert.workflow_status\", \"Value\": \"open\"}, {\"Field\": \"kibana.alert.reason\", \"Value\": \"network event with process SpringToolSuite4.exe, source 192.168.0.182:60435, destination 192.168.0.182:58728, by VELOX on Shubham-Dandkar.velox.co.in created high alert Suspicious Network Traffic with Failed Logins.\"}, {\"Field\": \"kibana.alert.severity\", \"Value\": \"high\"}, {\"Field\": \"kibana.alert.rule.description\", \"Value\": \"Suspicious Network Traffic with Failed Logins\"}, {\"Field\": \"_id\", \"Value\": \"a3d75b073a8c44d19eca9aa6a8f334cbce9af6a0e422ae1d767d7c68a6bd6929\"}]}",
+        "STATUS": null,
+        "ACTION": "\u2022 Unblock Account",
+        "ACTIONTYPE": "automate",
+        "TYPE_RULES": "N/A",
+        "BRANCH_NAME": "velox",
+        "SEVERITY": "unknown",
+        "REQUEST_COUNT": 0,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "EVENTID": null,
+        "VT_Response": null,
+        "ACTION_TAKEN_BY": null,
+        "PASSWORD": null,
+        "SUSPICIOUS": null,
+        "IPADDRESS": null,
+        "INDEX_ID": null,
+        "DATE": "30-09-2025 12:18:46"
+    },
+    "original_alert_details": {}
+}

@@ -1,0 +1,56 @@
+{
+    "action_id": "action_20251001_125548",
+    "db_record": {
+        "REQUESTID": null,
+        "REQUESTJSON": "{\"kibana.alert.rule.name\": \"File Creation Time Changed\", \"@timestamp\": \"2025-09-30T13:39:25.121Z\", \"ip_list\": \"\\\"fe80::c069:2d3a:ef07:2147\\\",\\\"192.168.0.39\\\"\", \"host\": {\"name\": \"Neeraj-Sharma.velox.co.in\", \"ip\": \"192.168.0.39\", \"architecture\": \"x86_64\", \"hostname\": \"Neeraj-Sharma\", \"mac\": [\"74:56:3c:83:4c:8d\"]}, \"rule\": {\"name\": \"T1099\"}, \"process\": {\"pid\": 1364, \"executable\": \"C:\\\\Users\\\\VELOX\\\\Downloads\\\\AnyDesk.exe\", \"name\": \"AnyDesk.exe\"}, \"event.action\": \"File creation time changed (rule: FileCreateTime)\", \"event.category\": [\"file\"], \"kibana.alert.workflow_status\": \"open\", \"kibana.alert.reason\": \"file event with process AnyDesk.exe, file user.conf.new, on Neeraj-Sharma.velox.co.in created medium alert File Creation Time Changed.\", \"kibana.alert.severity\": \"medium\", \"kibana.alert.rule.description\": \"Identifies modification of a file creation time. Adversaries may modify file time attributes to blend malicious content with existing files. Timestomping is a technique that modifies the timestamps of a file often to mimic files that are in trusted directories.\", \"_id\": \"d2fa20c4a725ecd7f5cbd1807cd0b908e0298c75ffb656b7601c99d3b851c657\", \"_relevance_score\": 6.0}",
+        "STATUS": "pending",
+        "ACTION": " Disable Firewall",
+        "ACTIONTYPE": "automate",
+        "TYPE_RULES": "File Creation Time Changed",
+        "BRANCH_NAME": "velox",
+        "SEVERITY": "medium",
+        "REQUEST_COUNT": 1,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "EVENTID": null,
+        "VT_Response": null,
+        "ACTION_TAKEN_BY": "chatbot_user",
+        "PASSWORD": null,
+        "SUSPICIOUS": null,
+        "IPADDRESS": "192.168.0.39",
+        "INDEX_ID": "d2fa20c4a725ecd7f5cbd1807cd0b908e0298c75ffb656b7601c99d3b851c657",
+        "DATE": "01-10-2025 12:55:48"
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "File Creation Time Changed",
+        "@timestamp": "2025-09-30T13:39:25.121Z",
+        "ip_list": "\"fe80::c069:2d3a:ef07:2147\",\"192.168.0.39\"",
+        "host": {
+            "name": "Neeraj-Sharma.velox.co.in",
+            "ip": "192.168.0.39",
+            "architecture": "x86_64",
+            "hostname": "Neeraj-Sharma",
+            "mac": [
+                "74:56:3c:83:4c:8d"
+            ]
+        },
+        "rule": {
+            "name": "T1099"
+        },
+        "process": {
+            "pid": 1364,
+            "executable": "C:\\Users\\VELOX\\Downloads\\AnyDesk.exe",
+            "name": "AnyDesk.exe"
+        },
+        "event.action": "File creation time changed (rule: FileCreateTime)",
+        "event.category": [
+            "file"
+        ],
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "file event with process AnyDesk.exe, file user.conf.new, on Neeraj-Sharma.velox.co.in created medium alert File Creation Time Changed.",
+        "kibana.alert.severity": "medium",
+        "kibana.alert.rule.description": "Identifies modification of a file creation time. Adversaries may modify file time attributes to blend malicious content with existing files. Timestomping is a technique that modifies the timestamps of a file often to mimic files that are in trusted directories.",
+        "_id": "d2fa20c4a725ecd7f5cbd1807cd0b908e0298c75ffb656b7601c99d3b851c657",
+        "_relevance_score": 6.0
+    }
+}

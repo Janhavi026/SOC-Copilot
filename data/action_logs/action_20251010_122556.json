@@ -1,0 +1,61 @@
+{
+    "action_id": "action_20251010_122556",
+    "db_record": {
+        "SR_NO": null,
+        "ACTION": "Enable Firewall",
+        "ACTIONTYPE": "Automation",
+        "DATE": "10-10-2025 06:19:42",
+        "INDEX_ID": "122007dc42954ef4529fd57c2d74ef178aff564563c5e9d41025bbc153ae1be9",
+        "IPADDRESS": "192.168.0.39",
+        "PASSWORD": null,
+        "REQUESTID": null,
+        "REQUESTJSON": "[{\"severity\": \"medium\", \"ipaddress\": \"N/A\", \"actionType\": \"Manual\", \"password\": \"\", \"action\": \"Enable Firewall\", \"id\": \"122007dc42954ef4529fd57c2d74ef178aff564563c5e9d41025bbc153ae1be9\", \"suspicious\": \"192.168.0.39\", \"typerules\": \"File Creation Time Changed\", \"timestamp\": \"10-10-2025 06:19:42\"}]",
+        "REQUEST_COUNT": 1,
+        "REQUEST_TYPE": null,
+        "STATUS": "Inprocess",
+        "SUSPICIOUS": "192.168.0.39",
+        "TYPE_RULES": "File Creation Time Changed",
+        "BRANCH_NAME": "velox",
+        "EVENTID": null,
+        "CLOSURE_TIME": null,
+        "RESPONSE_TIME": null,
+        "SEVERITY": "medium",
+        "PLAYBOOKNAME": null,
+        "ACTION_TAKEN_BY": null,
+        "VT_Response": null
+    },
+    "original_alert_details": {
+        "kibana.alert.rule.name": "File Creation Time Changed",
+        "@timestamp": "2025-10-10T06:19:42.629Z",
+        "rule": {
+            "name": "T1099"
+        },
+        "host": {
+            "architecture": "x86_64",
+            "ip": "192.168.0.39",
+            "hostname": "Neeraj-Sharma",
+            "mac": [
+                "74:56:3c:83:4c:8d"
+            ],
+            "name": "Neeraj-Sharma.velox.co.in"
+        },
+        "ip_list": "\"fe80::c069:2d3a:ef07:2147\",\"192.168.0.39\"",
+        "process": {
+            "name": "AnyDesk.exe",
+            "pid": 16424,
+            "executable": "C:\\Users\\VELOX\\Downloads\\AnyDesk.exe"
+        },
+        "logger_ip": "192.168.0.39",
+        "event.action": "File creation time changed (rule: FileCreateTime)",
+        "event.category": [
+            "file"
+        ],
+        "kibana.alert.workflow_status": "open",
+        "kibana.alert.reason": "file event with process AnyDesk.exe, file user.conf.new, on Neeraj-Sharma.velox.co.in created medium alert File Creation Time Changed.",
+        "kibana.alert.severity": "medium",
+        "kibana.alert.rule.description": "Identifies modification of a file creation time. Adversaries may modify file time attributes to blend malicious content with existing files. Timestomping is a technique that modifies the timestamps of a file often to mimic files that are in trusted directories.",
+        "kibana.alert.rule.rule_id": "166727ab-6768-4e26-b80c-948b228ffc06",
+        "_id": "122007dc42954ef4529fd57c2d74ef178aff564563c5e9d41025bbc153ae1be9",
+        "_relevance_score": 5.0
+    }
+}
